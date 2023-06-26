@@ -15,7 +15,7 @@ This is a solution to the Programación Funcional y ES6 project of the Make It R
 
 
 ## Overview
-Solicion al Ejercicio 1 y 2 del proyecto Programación Funcional y ES6 
+Solicion al Ejercicio 1,2 y 3 del proyecto Programación Funcional y ES6 
 ### The challenge
 Usar la programacion funcional para solucionar los diferentes problemas usando los metodos de arrays 
 
