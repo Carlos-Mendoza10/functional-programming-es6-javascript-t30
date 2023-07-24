@@ -102,23 +102,23 @@ const cars =
 ];
 function ferraris(cars){
    let ferrari = cars.filter(cars => cars.brand === "Ferrari")
-   console.log(ferrari)
+   return ferrari
 }
 function nineties(cars){
     let mod = cars.filter(cars => cars.model >=1980 && cars.model<=1990) 
-    console.log(mod)
+    return mod
 }
 function list(cars){
     let lista = cars.map(cars => `This ${cars.brand} from ${cars.model} costs $${cars.price}`)
-    console.log(lista)
+    return lista
 }
 function bmwSum(cars){
     let sumprice = cars.filter(cars => cars.brand === "BMW").reduce((suma,valor)=> suma+valor.price, 0)
-    console.log(sumprice)
+    return sumprice
 }
 
 
-//ferraris(cars)// solucion ejercicio 2.1
-//nineties(cars)// solucion ejercicio 2.2
-//list(cars)// solucion ejercicio 2.3
-//bmwSum(cars) //solcion ejercicio 3
+//console.log(ferraris(cars))// solucion ejercicio 2.1
+//console.log(nineties(cars))// solucion ejercicio 2.2
+//console.log(list(cars))//solucion ejercicio 2.3
+//console.log(bmwSum(cars))//solcion ejercicio 3
